@@ -34,7 +34,7 @@ function App() {
   };
 
   const getResultMessage = () => {
-    if (myNumbers.length !== 6 || winningNumbers.length !== 6) {
+    if (myNumbers.length !== 6 || winningNumbers.length !== 6 || bonusNumber === null) {
       return null;
     }
     const matchCount = myNumbers.filter(num => winningNumbers.includes(num)).length;
