@@ -6,7 +6,7 @@ function App() {
   const [manualSelection, setManualSelection] = useState([]);
   const [winningNumbers, setWinningNumbers] = useState([]);
   const [bonusNumber, setBonusNumber] = useState(null);
-  const [mode, setMode] = useState('auto');
+  const [mode, setMode] = useState('');
   const min = 1;
   const max = 45;
 
